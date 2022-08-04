@@ -2,8 +2,7 @@ import React from 'react'
 import { ThemeProvider } from 'styled-components'
 
 import GlobalStyles from '../styles/GlobalStyles'
-import { PageLayout } from '../styles/PageLayout'
-import { Typography } from '../styles/Typography'
+import { PageLayout } from "../styles/PageLayout";
 import theme from '../constants/theme'
 import { useTheme } from '../hooks/useTheme'
 
@@ -17,13 +16,12 @@ const Page = ({ children }) => {
   return (
     <>
       <GlobalStyles />
-      <Typography />
       <ThemeProvider theme={themeMode}>
         <Header mode={mode} toggleMode={toggleMode} />
         <PageLayout>{children}</PageLayout>
       </ThemeProvider>
     </>
-  )
+  );
 }
 
 export default Page

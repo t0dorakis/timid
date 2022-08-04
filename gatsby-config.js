@@ -1,15 +1,18 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby starter Styled Components`,
-    siteUrl: 'https://gatsby-styled.netlify.app/',
-    description: 'Gatsby starter with modular file structure and support for Styled Components',
-    author: `Jovanovska Jovana`,
+    title: `Timid`,
+    description:
+      "Digital branding agency that listens but does doesn`t shy away from bold moves.",
+    author: `Theodor Hillmann`,
   },
   plugins: [
-    'gatsby-plugin-styled-components',
-    'gatsby-plugin-react-helmet',
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-image",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+    `gatsby-plugin-netlify`,
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -17,4 +20,4 @@ module.exports = {
       },
     },
   ],
-}
+};

@@ -1,18 +1,18 @@
 const theme = {
   light: {
-    background: '#d6d8ec',
-    textPrimary: '#673a6d',
-    textSecondary: '#37364d',
-    buttonPrimary: '#5a4fff',
-    buttonGhost: 'transparent',
+    background: "#ffffff",
+    textPrimary: "#0F0E0E",
+    textSecondary: "#0F0E0E",
+    buttonPrimary: "#ffffff",
+    buttonGhost: "transparent",
   },
   dark: {
-    background: '#5d4561',
-    textPrimary: '#fff',
-    textSecondary: '#37364d',
-    buttonPrimary: '#fff',
-    buttonGhost: 'transparent',
+    background: "#0F0E0E",
+    textPrimary: "#fff",
+    textSecondary: "#0F0E0E",
+    buttonPrimary: "#fff",
+    buttonGhost: "transparent",
   },
-}
+};
 
 export default theme

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import breakpoints from '../constants/breakpoints'
+import { mediaQueries } from "../styles/queries";
 
 const HeaderLayout = styled.div`
   display: flex;
@@ -12,11 +12,11 @@ const HeaderLayout = styled.div`
   width: 100%;
   padding: 3rem 10rem;
 
-  @media (max-width: ${breakpoints.screenMD}) {
+  ${mediaQueries.medium} {
     padding: 2rem 5rem;
   }
 
-  @media (max-width: ${breakpoints.screenSM}) {
+  ${mediaQueries.small} {
     padding: 1.5rem 2rem;
   }
 
@@ -25,6 +25,6 @@ const HeaderLayout = styled.div`
     font-weight: 400;
     color: ${(props) => props.theme.textPrimary};
   }
-`
+`;
 
 export default HeaderLayout

@@ -8,9 +8,11 @@ const HomePage = () => (
   <>
     <SEO title="Home" />
     <Container>
-      <Headline>hi, you</Headline>
+      <Headline>
+        We listen and give your brand the visibility it needs.
+      </Headline>
     </Container>
   </>
-)
+);
 
 export default HomePage
