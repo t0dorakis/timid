@@ -1,0 +1,6 @@
+{
+  "arrowParens": "avoid",
+  "semi": true,
+  "maxLineLength": 100,
+  "singleQuote": true
+}
